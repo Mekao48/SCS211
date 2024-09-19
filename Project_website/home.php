@@ -12,7 +12,7 @@
     <!-- Header -->
     <?php include("Layouts/header.php") ?>
     <!-- Carousel -->
-    <div id="maincarousel" class="carousel slide pt-4" data-bs-ride="true" style="position: relative;">
+    <div id="maincarousel" class="carousel slide pt-4 " data-bs-ride="true" style="position: relative;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="asset/panithan.png" class="d-block m-auto" alt="panithan" style="width: 90%;">
@@ -39,7 +39,7 @@
     </div>
     <!-- Content -->
     <div class="content pt-4">
-        <div class="container-fluid bg-white shadow p-3 mb-5 bg-body-tertiary">
+        <div class="container-fluid bg-white shadow-lg mb-5 bg-body-tertiary">
             <div class="row pt-3">
                 <figure class="text-center">
                     <blockquote class="blockquote">
