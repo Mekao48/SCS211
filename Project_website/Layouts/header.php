@@ -28,7 +28,7 @@
         <div class="row" style="margin-bottom: -13px; margin-top: 10px;">
           <div class="col-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php" style="color: white; font-size: 175%;"><i class="bi bi-house" style="margin-right: 8px;"></i>หน้าแรก</a>
+              <a class="nav-link active" aria-current="page" href="home.php" style="color: white; font-size: 175%;"><i class="bi bi-house" style="margin-right: 8px;"></i>หน้าแรก</a>
             </li>
               </div>
               <div class="col-auto">
@@ -166,7 +166,3 @@
     </div>
   </div>
 </nav>
-<!-- ฺAnoucement -->
-<div style="background-color: white;">
-  <h2>(ประกาศ)</h2>
-</div>
