@@ -152,23 +152,27 @@
       </ul>
     <div class="col-auto">
       <div class="row-reverse">
+<!-- Login -->
       <div class="dropdown">
         <p type="button" class="btn btn-outline-success" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder;">
           <i class="bi bi-person-circle" style="margin-right: 5px;"></i>
           เข้าสู่ระบบ
         </p>
-        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3" style="width: max-content; position: absolute;">
+        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3 needs-validation was-validated" style="width: max-content; position: absolute;" novalidate>
           <div class="mb-3">
             <label for="Username" class="form-label">ชื่อผู้ใช้</label>
-            <input type="text" class="form-control" id="Username" placeholder="Username">
+            <input type="text" class="form-control" id="Username" placeholder="Username" required>
+            <div class="invalid-feedback">ชื่อผู้ใช้ไม่ถูกต้อง</div>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">รหัสผ่าน</label>
-            <input type="password" class="form-control" id="password" placeholder="Password">
+            <input type="password" class="form-control" id="password" placeholder="Password" required>
+            <div class="invalid-feedback">รหัสผ่านไม่ถูกต้อง</div>
           </div>
           <button type="submit" class="btn btn-success">Login</button>
         </form>
       </div>
+<!-- Register -->
       <div class="dropdown">
         <p type="button" class="btn btn-outline-secondary" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder;">
           <i class="bi bi-person-circle" style="margin-right: 5px;"></i>
