@@ -12,7 +12,7 @@
 <!-- Header -->
     <?php include("Layouts/header.php") ?>
 <!-- Carousel -->
-    <div id="maincarousel" class="carousel slide pt-4 " data-bs-ride="true" style="position: relative; max-height: 264px;">
+    <div id="maincarousel" class="carousel slide pt-4" data-bs-ride="true" style="position: relative; max-height: 264px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="asset/panithan.png" class="d-block m-auto" alt="panithan" style="width: 45%;">
@@ -28,11 +28,11 @@
             </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev z-1" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
+        <button class="carousel-control-next z-1" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -44,7 +44,7 @@
             <div class="row pt-5">
                 <figure class="text-center">
                     <blockquote class="blockquote">
-                        <h1><strong>องค์การบริหารส่วนตำบลบ้านควน ยินดีต้อนรับ</strong></h1>
+                        <h1><strong>องค์การบริหารส่วนตำบลบ้านควน <h1 class="my-3 mb-5" style="color: #318c40;">ยินดีต้อนรับ<h1></strong></h1>
                     </blockquote>
                     <figcaption class="blockquote-footer fs-3 pt-1">
                         วิสัยทัศน์การพัฒนาท้องถิ่น
@@ -147,7 +147,7 @@
 <!-- End of Banner -->
     </div>
 <!-- Activity -->
-    <h1 class="text-center mb-5">กิจกรรมเด่น</h1>
+    <h1 class="text-center mb-5" style="color: #354259;">กิจกรรมเด่น</h1>
         <div id="carouselActivity" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -176,7 +176,7 @@
             </button>
         </div>
 <!-- Travel -->
-<h1 class="mb-5 ms-5">แหล่งท่องเที่ยว</h1>
+<h1 class="mb-5 ms-5" style="color: #354259;">แหล่งท่องเที่ยว</h1>
     <div class="row">
         <div class="col-8">
         <div id="carouselTravel" class="carousel slide mb-5 " data-bs-ride="carousel" style="width: 95%;">
@@ -206,14 +206,14 @@
         </div>
     </div>
 <!-- Study -->
-    <h2 class="text-center m-5">ภูมิปัญญาท้องถิ่น</h2>
+    <h2 class="text-center m-5" style="color: #354259;">ภูมิปัญญาท้องถิ่น</h2>
         <div class="row" style="justify-content: space-around;">
                 <img src="asset/Study/study.png" class="rounded" style="width: 423px;">
                 <img src="asset/Study/study-2.png" class="rounded" style="width: 423px;">
         </div>
 <!-- philosophy -->
     <div style="margin-top: 200px; margin-bottom: 170px;">
-        <h3 class="text-center fs-3 fst-italic fw-semibold">" ซื่อสัตย์ สุจริต มุ่งสัมฤทธิ์ของงาน ยึดมั่นมาตรฐานบริการด้วยใจเป็นธรรม "</h3>
+        <h3 class="text-center fs-3 fst-italic fw-semibold" style="color: #a37e39;">" ซื่อสัตย์ สุจริต มุ่งสัมฤทธิ์ของงาน ยึดมั่นมาตรฐานบริการด้วยใจเป็นธรรม "</h3>
     </div>
     <i class="bi bi-dot" style="color: white;"></i>
     <i class="bi bi-dot" style="color: white;"></i>

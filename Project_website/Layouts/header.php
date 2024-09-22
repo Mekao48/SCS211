@@ -1,18 +1,22 @@
 <header>
-<nav class="navbar navbar-expand-lg sticky-top z-0" style="background-color: #164d64; padding: 8px; opacity: 99%;">
+<nav class="navbar navbar-expand-lg sticky-top z-3" style="background-color: #164d64; padding: 8px; opacity: 99%;">
   <div class="container-fluid">
     <a class="navbar-brand"
       href="home.php">
       <img src="asset/Logo.png"
         class="rounded-circle border border-white border-5 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="width: 70%; padding: 5px; margin-left: 45px;">
     </a>
+    <a class="navbar-brand"
+      href="home.php">
     <img src="asset/Logo.png"
         class="rounded-circle border border-white border-5 d-xl-none d-lg-block d-md-none d-sm-none d-none" style="width: 120px; padding: 5px; margin-left: -20px; margin-right: 10px;">
     </a>
+    <a class="navbar-brand"
+      href="home.php">
     <img src="asset/Logo.png"
-        class="rounded-circle border border-white border-5 d-lg-none d-md-block" style="width: 120px; padding: 5px; margin-left: -15px;">
+        class="rounded-circle border border-white border-5 d-lg-none d-md-block" style="width: 120px; padding: 5px; margin-left: -15px;" href="home.php">
     </a>
-    <a href="index.php" class="d-lg-none d-md-block link-offset-3 link-underline-opacity-50" style="margin-right: 20px; margin-left: 10px; font-weight: bold; color: azure; font-size: xx-large;">อบต.บ้านควน</a>
+    <a href="home.php" class="d-lg-none d-md-block link-offset-3 link-underline-opacity-50" style="margin-right: 20px; margin-left: 10px; font-weight: bold; color: azure; font-size: xx-large;">อบต.บ้านควน</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -146,12 +150,14 @@
         </div>
         </div>
       </ul>
+    <div class="col-auto">
+      <div class="row-reverse">
       <div class="dropdown">
-        <p type="button" class="btn btn-outline-success" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder; margin-bottom: 70px;">
+        <p type="button" class="btn btn-outline-success" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder;">
           <i class="bi bi-person-circle" style="margin-right: 5px;"></i>
           เข้าสู่ระบบ
         </p>
-        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3" style="width: max-content; position: absolute; margin-top: -60px;">
+        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3" style="width: max-content; position: absolute;">
           <div class="mb-3">
             <label for="Username" class="form-label">ชื่อผู้ใช้</label>
             <input type="text" class="form-control" id="Username" placeholder="Username">
@@ -160,9 +166,33 @@
             <label for="password" class="form-label">รหัสผ่าน</label>
             <input type="password" class="form-control" id="password" placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-primary">Login</button>
+          <button type="submit" class="btn btn-success">Login</button>
         </form>
       </div>
+      <div class="dropdown">
+        <p type="button" class="btn btn-outline-secondary" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder;">
+          <i class="bi bi-person-circle" style="margin-right: 5px;"></i>
+          สมัครสมาชิก
+        </p>
+        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3" style="width: max-content; position: absolute;">
+          <div class="mb-3">
+            <label for="Username" class="form-label">ชื่อผู้ใช้</label>
+            <input type="text" class="form-control" id="Username" placeholder="Username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">รหัสผ่าน</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Sign-up</button>
+        </form>
+      </div>
+      </div>
+      <div class="row">
+      <button class="btn btn-warning rounded-pill shadow-4-strong btn-lg d-none d-md-block mb-2 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_E-service" aria-expanded="false" aria-controls="#collapse_E-service">
+            E-services <i class="bi bi-headset "></i>
+        </button>
+      </div>
+    </div>
     </div>
   </div>
 </nav>
