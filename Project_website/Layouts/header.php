@@ -1,7 +1,8 @@
-<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #164d64; padding: 8px; opacity: 99%;">
+<header>
+<nav class="navbar navbar-expand-lg sticky-top z-0" style="background-color: #164d64; padding: 8px; opacity: 99%;">
   <div class="container-fluid">
     <a class="navbar-brand"
-      href="index.php">
+      href="home.php">
       <img src="asset/Logo.png"
         class="rounded-circle border border-white border-5 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="width: 70%; padding: 5px; margin-left: 45px;">
     </a>
@@ -33,17 +34,17 @@
               </div>
               <div class="col-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white; font-size: 125%;">กิจกรรม</a>
+              <a class="nav-link" aria-current="page" href="history.php" style="color: white; font-size: 125%;">ประวัติ</a>
             </li>
               </div>
               <div class="col-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white; font-size: 125%;">ข่าวประชาสัมพันธ์</a>
+              <a class="nav-link" aria-current="page" href="news.php" style="color: white; font-size: 125%;">ข่าวประชาสัมพันธ์</a>
             </li>
               </div>
               <div class="col-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="color: white; font-size: 125%;">ประกาศการจัดซื้อฯ</a>
+              <a class="nav-link" aria-current="page" href="buy.php" style="color: white; font-size: 125%;">ประกาศการจัดซื้อฯ</a>
             </li>
               </div>
         </div>
@@ -61,7 +62,7 @@
             ข้อมูลพื้นฐาน
           </a>
           <ul class="dropdown-menu dropdown-menu-md-end" style="background-color: white;">
-            <li><a class="dropdown-item" href="#">ประวัติความเป็นมา</a></li>
+            <li><a class="dropdown-item" href="#">กิจกรรม</a></li>
             <li><a class="dropdown-item" href="#">วิสัยทัศน์/พันธกิจ</a></li>
             <li><a class="dropdown-item" href="#">โครงสร้างองค์กร</a></li>
             <li><a class="dropdown-item" href="#">อำนาจหน้าที่</a></li>
@@ -145,12 +146,12 @@
         </div>
         </div>
       </ul>
-      <div class="dropdown ">
-        <button type="button" class="btn btn-outline-success" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder; margin-bottom: 70px;">
+      <div class="dropdown">
+        <p type="button" class="btn btn-outline-success" data-bs-toggle="dropdown" aria-expanded="true" data-bs-auto-close="outside" style="font-weight: bolder; margin-bottom: 70px;">
           <i class="bi bi-person-circle" style="margin-right: 5px;"></i>
           เข้าสู่ระบบ
-        </button>
-        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg" style="width: max-content; position: absolute; margin-top: -60px;">
+        </p>
+        <form class="dropdown-menu p-4 dropdown-menu-lg-end shadow-lg z-3" style="width: max-content; position: absolute; margin-top: -60px;">
           <div class="mb-3">
             <label for="Username" class="form-label">ชื่อผู้ใช้</label>
             <input type="text" class="form-control" id="Username" placeholder="Username">
@@ -159,10 +160,10 @@
             <label for="password" class="form-label">รหัสผ่าน</label>
             <input type="password" class="form-control" id="password" placeholder="Password">
           </div>
-          
           <button type="submit" class="btn btn-primary">Login</button>
         </form>
       </div>
     </div>
   </div>
 </nav>
+</header>
