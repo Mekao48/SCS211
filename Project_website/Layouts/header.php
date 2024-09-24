@@ -192,7 +192,7 @@
       </div>
       </div>
       <div class="row">
-      <button class="btn btn-warning rounded-pill shadow-4-strong btn-lg d-none d-md-block mb-2 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_E-service" aria-expanded="false" aria-controls="#collapse_E-service">
+      <button class="btn btn-warning rounded-pill shadow-4-strong btn-lg d-none d-lg-block mb-2 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_E-service" aria-expanded="false" aria-controls="#collapse_E-service">
             E-services <i class="bi bi-headset "></i>
         </button>
       </div>

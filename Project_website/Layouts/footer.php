@@ -8,7 +8,7 @@
 </div>
 <!-- E-service -->
     <p class="d-inline-flex gap-1 fixed-top z-0" style="justify-content: end; flex-direction: row; margin: -5px; margin-top: 150px;">        
-        <button class="btn btn-warning rounded-start-pill shadow-4-strong btn-lg d-block d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_E-service" aria-expanded="false" aria-controls="#collapse_E-service" style="margin-top: 100px;">
+        <button class="btn btn-warning rounded-start-pill shadow-4-strong btn-lg d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_E-service" aria-expanded="false" aria-controls="#collapse_E-service" style="margin-top: 100px;">
             <i class="bi bi-headset "></i>
         </button>
     </p>
